@@ -14,6 +14,9 @@
             </value>
         </assignmentItems>
     </assignments>
+    <description>Due to the behaviour limitation that leads to a duplicate field issue in managed
+        SOQL
+        queries, this flow contains a sample flow that mirrors both fields with the same API Name.</description>
     <environments>Default</environments>
     <interviewLabel>Copado Connect: Copy External Id to Custom Field {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Copado Connect: Copy External Id to Custom Field</label>
